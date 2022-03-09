@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script lenguaje="javascript" src="main.js"></script>
+    <meta name="viewport" content="widht=device-width, initial-scale=1">
+    <meta name="description" content="En esta pagina van a poder realizar converciones de temperaturas.">
+    <meta name="keywords"  content="CONVERSOR DE TEMPERATURA, FAHRENHEIT, KALVIN, CELSIUS">
+    <title>Conversor de Temperatura</title>
+</head>
+
+<body>
+    <header>
+        <div class="col-12">
+            <h1 class="tilt">Conversor de Temperatura</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="div2 col-12">
+                <h2 class="tilt2">Ingrese valor a convertir<h2>
+                <input id="monto" type="number" name="numero" placeholder="Ej: 28">
+            </div>
+            <div class="div3 col-12">
+                <p class="text">Seleccione la conversion que quiere hacer:</p>
+
+                <button id="boton" onclick="convertir(event)" name="Fahrenheit-a-Celsius">Fahrenheit a Celsius</button>
+                <button id="boton" onclick="convertir(event)" name="Fahrenheit-a-Kelvin">Fahrenheit a Kelvin</button>
+                <button id="boton" onclick="convertir(event)" name="celsius-a-fahrenheit">Celsius a Fahrenheit</button>
+                <button id="boton" onclick="convertir(event)" name="Celsius-a-Kelvin">Celsius a Kelvin</button>
+                <button id="boton" onclick="convertir(event)" name="Kelvin-a-Fahrenheit">Kelvin a Fahrenheit</button>
+                <button id="boton" onclick="convertir(event)" name="Kelvin-a-Celsius">Kelvin a Celsius</button>
+            </div>
+            <div id="mensaje"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="col-12">
+            <p class="tilt2">@copyright PICCINO</p>
+        </div>
+    </footer>
+</body>
+</html>
